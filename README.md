@@ -11,3 +11,16 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
+
+## dagshub
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/hjdata11/End-to-End-Chest-Cancer-Classification-using--MLflow-DVC.mlflow
+export MLFLOW_TRACKING_USERNAME=hjdata11
+export MLFLOW_TRACKING_PASSWORD=86889e51af823ef037e4e1a6d0998986a55d3468
+
+WindowsPowerShell
+
+$env:MLFLOW_TRACKING_URI="https://dagshub.com/hjdata11/End-to-End-Chest-Cancer-Classification-using--MLflow-DVC.mlflow"
+$env:MLFLOW_TRACKING_USERNAME="hjdata11"
+$env:MLFLOW_TRACKING_PASSWORD="86889e51af823ef037e4e1a6d0998986a55d3468"
+
